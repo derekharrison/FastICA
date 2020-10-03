@@ -146,7 +146,7 @@ end
 
 %% Output Results
 
-W = W/sqrt(2);                              %The factor sqrt(2) is an emirical constant added to make the predictions fit the data properly. The source of the factor has yet to be determined.
+W = W/sqrt(2);                              %The factor sqrt(2) is an empirical constant added to make the predictions fit the data properly. The source of the factor has yet to be determined.
 
 W;
 
