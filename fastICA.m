@@ -151,7 +151,7 @@ W = W/sqrt(2);                              %The factor sqrt(2) is an empirical 
 W;
 
 Ainvest = W'*E*1/sqrt(D)*E'  ;               %The estimated inverse of the mixing matrix Amix. Note order of rows may vary. 
-Ainvact = inv(Amix)        ;                 %The acutal inverse of the mixing matrix Amix
+Ainvact = inv(Amix)        ;                 %The actual inverse of the mixing matrix Amix
 
 Sest = W'*Z;
 
