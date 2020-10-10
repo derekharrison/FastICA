@@ -121,8 +121,8 @@ iterations = 100;                           %The amount of iterations used in th
 
 for p = 1:C
     
-wp = ones(N,1)*0.5;
-wp = wp / sqrt(wp'*wp);
+    wp = ones(N,1)*0.5;
+    wp = wp / sqrt(wp'*wp);
 
     for i = 1:iterations
         
